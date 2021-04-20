@@ -1,0 +1,49 @@
+- name: "Audio & Video"
+  description: "Audio & Video Players"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - vlc
+    - rythmbox
+- name: "Browsers"
+  description: "Internet Browsers & E-mail"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - brave
+    - firefox
+- name: "Dev Tools"
+  description: "Editors for Developers"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - atom
+    - code
+    - geany
+    - meld
+    - guvcview
+    - sublime-text-dev
+    - visual-studio-code-bin
+- name: "Office"
+  description: "Office Suite"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - libreoffice-fresh
+- name: "Terminals"
+  description: "Various Terminals"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - konsole
+    - alacritty
+    - gnome-terminal
