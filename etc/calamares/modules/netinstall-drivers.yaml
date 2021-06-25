@@ -1,4 +1,4 @@
-- name: "Nvidia is installed by default"
+- name: "Installed NVIDIA drivers"
   description: "Select NVIDIA in BIOS or UEFI - installs the latest Nvidia"
   critical: false
   hidden: false
