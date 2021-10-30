@@ -1,0 +1,131 @@
+- name: "Desktop: KDE Plasma"
+  description: "KDE's Plasma Desktop is a highly configurable, modern desktop environment."
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - plasma
+    - konsole
+    - kate
+    - dolphin
+    - gwenview
+    - okular
+    - spectacle
+- name: "Desktop: XFCE"
+  description: "XFCE is a configurable desktop environment which consumes less hardware resources."
+  critical: false
+  hidden: false
+  selected: false
+  immutable: false
+  expanded: false
+  packages:
+    - xfce4
+    - xfce4-goodies
+    - mousepad
+    - thunar
+    - xfce4-terminal
+    - network-manager-applet
+    - blueman
+- name: "Desktop: GNOME"
+  description: "GNOME is an attractive and intuitive desktop with modern features."
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - gnome
+    - gnome-terminal
+    - nautilus
+    - gedit
+- name: "Desktop: Cinnamon"
+  description: "Cinnamon strives to provide a traditional Windows-like user interface & experience."
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - cinnamon
+    - gedit
+    - nemo
+    - gnome-terminal
+    - blueberry
+- name: "Desktop: Mate"
+  description: "Mate provides an intuitive and attractive desktop to Linux users using traditional metaphors."
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - mate
+    - mate-extra
+    - mate-tweak
+    - network-manager-applet
+    - blueman
+- name: "Desktop: LXQt"
+  description: "LXQt is a fast and energy-saving desktop environment."
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - lxqt
+    - slock
+    - network-manager-applet
+    - blueman
+- name: "Desktop: Cutefish"
+  description: "Cutefish is a new and modern desktop environment with MAC OS like user interface."
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - cutefish
+- name: "Desktop: Budgie"
+  description: "Budgie is designed with the modern user in mind, it focuses on simplicity and elegance."
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - budgie-desktop
+    - budgie-extras
+    - gnome-terminal
+- name: "Desktop: Deepin"
+  description: "Deepin desktop interface and apps feature an intuitive and elegant design."
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - deepin
+    - deepin-extra
+- name: "Window Managers"
+  description: "Stock Window Managers. You can just install them, it's up to you how you want to configure them."
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  immutable: true
+  subgroups:
+      - name: "Common Packages used in Window Managers"
+        description: "Bars, Terminals, Program Launchers, etc"
+        selected: false
+        subgroups:
+            - name: "Terminal Emulators"
+              description: "Terminals"
+              selected: false
+              packages:
+                 - kitty
+                 - alacritty
+                 - rxvt-unicode
+                 - terminator
+                 - xterm
+            - name: "Miscellaneous"
+              description: "Misc Tools"
+              selected: false
+              packages:
+                 - dunst
+                 - rofi
+                 - feh
+                 - picom
+      - name: "i3WM: i3 Window Manager"
+        description: "Tiling window manager, completely written from scratch."
+        selected: false
+        packages:
+           - i3-gaps
+           - i3blocks
+           - i3lock
+           - i3status

@@ -8,7 +8,7 @@
 # Additional styling can be done using the stylesheet.qss
 # file, also in the branding directory.
 ---
-componentName:  default
+componentName:  archlinuxgui
 
 
 ### WELCOME / OVERALL WORDING
@@ -48,7 +48,7 @@ windowExpanding:    normal
 # This setting is ignored if "fullscreen" is selected for
 # *windowExpanding*, above. If not set, use constants defined
 # in CalamaresUtilsGui, 800x520.
-windowSize: 1100px,520px
+windowSize: 1200px,750px
 
 # Placement of Calamares window. Either "center" or "free".
 # Whether "center" actually works does depend on the window
@@ -123,7 +123,7 @@ navigation: widget
 strings:
     productName:         "@{NAME}"
     shortProductName:    Arch Linux
-    version:             2021-03-12
+    version:             2021-10
     #shortVersion:        
     versionedName:       Arch Linux 
     shortVersionedName:  Arch Linux
