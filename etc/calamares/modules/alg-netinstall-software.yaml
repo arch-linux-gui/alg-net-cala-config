@@ -74,7 +74,6 @@
               packages:
                  - kdenlive
                  - shotcut
-                 - davinci-resolve
       - name: "Screen Recorders"
         description: "Record Your Screen (ScreenCast)"
         selected: false
