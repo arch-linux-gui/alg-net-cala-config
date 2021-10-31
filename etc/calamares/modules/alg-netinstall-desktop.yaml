@@ -1,3 +1,10 @@
+- name: "X11: Display Server"
+  description: "IMPORTANT: Select this or you will not get display."
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - xorg
 - name: "Desktop: KDE Plasma"
   description: "KDE's Plasma Desktop is a highly configurable, modern desktop environment."
   critical: false

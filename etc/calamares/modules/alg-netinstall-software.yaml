@@ -1,3 +1,18 @@
+- name: "Utilities"
+  description: "System Utilities"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - base-devel
+    - linux-headers
+    - pacman-contrib
+    - neofetch
+    - screenfetch
+    - htop
+    - btop
+    - gtop
+    - gotop
 - name: "Web Browsers"
   description: "Surf the Internet"
   critical: false
