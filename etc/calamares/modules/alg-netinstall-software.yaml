@@ -102,8 +102,6 @@
            - audacity
            - ardour
            - lmms
-           - rosegarden
-           - muse
       - name: "Computer Graphics"
         description: "Graphics Processing Software"
         selected: false

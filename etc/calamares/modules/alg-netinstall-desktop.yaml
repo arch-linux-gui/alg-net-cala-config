@@ -122,10 +122,17 @@
                  - feh
                  - picom
       - name: "i3WM: i3 Window Manager"
-        description: "Tiling window manager, completely written from scratch."
+        description: "Tiling window manager, with gaps & good documentation"
         selected: false
         packages:
            - i3-gaps
            - i3blocks
            - i3lock
            - i3status
+      - name: "OBWM: OpenBox Window Manager"
+        description: "Highly configurable, next generation window manager with extensive standards support."
+        selected: false
+        packages:
+           - openbox
+           - obconf
+           - menumaker
