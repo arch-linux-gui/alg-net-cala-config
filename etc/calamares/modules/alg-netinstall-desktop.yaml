@@ -11,6 +11,7 @@
     - gwenview
     - okular
     - spectacle
+    - alg-plasma-settings
 - name: "Desktop: XFCE"
   description: "XFCE is a configurable desktop environment which consumes less hardware resources."
   critical: false
@@ -26,6 +27,7 @@
     - xfce4-terminal
     - network-manager-applet
     - blueman
+    - alg-xfce-settings
 - name: "Desktop: GNOME"
   description: "GNOME is an attractive and intuitive desktop with modern features."
   critical: false
@@ -36,6 +38,7 @@
     - gnome-terminal
     - nautilus
     - gedit
+    - alg-gnome-settings
 - name: "Desktop: Cinnamon"
   description: "Cinnamon strives to provide a traditional Windows-like user interface & experience."
   critical: false
@@ -47,6 +50,7 @@
     - nemo
     - gnome-terminal
     - blueberry
+    - alg-cinnamon-settings
 - name: "Desktop: Mate"
   description: "Mate provides an intuitive and attractive desktop to Linux users using traditional metaphors."
   critical: false
